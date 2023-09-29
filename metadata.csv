@@ -2,4 +2,4 @@ col_id;path_to_file;col_id_in_file;instruction
 STUDYID;/home/conan/STDM.csv;STUDYID;It is the same column name that must be retrieved.
 USUBJID;/home/conan/STDM.csv;USUBJID;It is the same column name that must be retrieved.
 SEX;/home/conan/STDM.csv;SEX;It is the same column name that must be retrieved.
-COHORT;/home/conan/STDM.csv;DSGROUP;Depends on the column DSGROUP, if it contain
+COHORT;/home/conan/STDM.csv;DSGROUP;Depends on the column DSGROUP, if it contains "PD-1 NAIVE " or "COHORT A1 PHASE 2" then cohort = "Cohort A1"; else if it contains "PD-1 PRE-TREATED " or "COHORT A2 PHASE 2" then cohort = "Cohort A2"; else if it contains "PHASE 1 DIFFUSE LARGE B-CELL LYMPHOMA " or " COHORT B PHASE 2" then cohort = "Cohort B"; else if it contains "PHASE 1 PERIPHERAL T-CELL LYMPHOMA PATIENT " or "COHORT C PHASE 2" then cohort = " Cohort C";
