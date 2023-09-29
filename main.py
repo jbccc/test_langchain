@@ -14,7 +14,7 @@ def main():
     metadata = read_metadata('metadata.csv')
     instructions = []
     for row in metadata:
-        instructions.append(PromptTemplateInstructions(row))
+        instructions.append(PromptTemplateInstructions(col_id=row[0], sheet_name=row[1], column_in_sheet_name=row[2], hint=row[3],))
 
     codes = []
     for instruction in instructions:

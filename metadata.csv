@@ -1,0 +1,5 @@
+col_id;path_to_file;col_id_in_file;instruction
+STUDYID;/home/conan/STDM.csv;STUDYID;It is the same column name that must be retrieved.
+USUBJID;/home/conan/STDM.csv;USUBJID;It is the same column name that must be retrieved.
+SEX;/home/conan/STDM.csv;SEX;It is the same column name that must be retrieved.
+COHORT;/home/conan/STDM.csv;DSGROUP;Depends on the column DSGROUP, if it contain
